@@ -1,0 +1,44 @@
+#root {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.blog-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.request-button {
+  width: 400px;
+  padding: 20px;
+  background-color: green;
+  color: white;
+}
+
+.blog-item {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #e8e5e5;
+  margin: 10px;
+}
+
+.film-card {
+  border: 1px solid;
+  margin: 10px;
+  width: 32%;
+}
+
+.spinner-container {
+  display: flex;
+  justify-content: center;
+  margin: 40px;
+}
+
+.img-film {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
